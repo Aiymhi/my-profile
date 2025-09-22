@@ -9,7 +9,21 @@ const items = [
     img: "./screen.png",
     desc: "A dynamic portfolio page showcasing my software engineering projects. Built with React JS, SCSS, HTML, and NPM for a clean, modern interface to highlight my skills and experience.",
   },
+  {
+    id: 2,
+    title: "Stock Price Predictor via Sentiment Analysis",
+    img: "'/Users/aiymaibekova/Downloads/event runner.png'",
+    desc: "Built an LSTM-based model to forecast stock prices using sentiment analysis of 650K+ news articles. Processed data with NLP models (VADER, FinBERT, DistilBERT) and used Python, TensorFlow, and pandas.",
+    repo: "https://github.com/aiymhi/stock-predictor-repo", 
+  },
+  {
+    id: 3,
+    title: "Event Runner — UWHacks Hackathon",
+    desc: "Developed a full-stack login and user authentication system in 48 hours for an event planning app. Used Node.js, React, TypeScript, and MongoDB to rapidly build the core feature.",
+    repo: "https://github.com/Cao-Labs/financialMedia.git" ,
+  },
 ];
+
 
 const Single = ({ item }) => {
   const ref = useRef();
