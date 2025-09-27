@@ -1,3 +1,7 @@
+
+
+
+
 import { useRef } from "react";
 import "./parallax.scss";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -24,7 +28,7 @@ const Parallax = ({ type }) => {
             : "linear-gradient(180deg, #111132, #505064)",
       }}
     >
-      <motion.h1 style={{ y: yText }}>
+<motion.h1 style={{ y: yText }}>
         {type === "me" ? "Who am I?" : "My works"}
       </motion.h1>
       <motion.div className="mountains"></motion.div>

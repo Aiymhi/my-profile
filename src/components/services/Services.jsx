@@ -36,8 +36,7 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          "Pretty girls
-          <br /> are always late!" – Me 
+          “Technology is best when it brings people together.” – Matt Mullenweg
         </p>
         <hr />
       </motion.div>
@@ -55,42 +54,103 @@ const Services = () => {
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
+        {/* <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>About Me</h2>
+          <p>       I am growing my skill set around software engineering, data analytics, and cloud computing.
+My interests include <b>product management, machine learning, women’s empowerment</b> in STEM, and helping communities use technology for <b>real-world impact</b>. I am seeking analyst or engineering internships for positive change.
+
+ </p>
+ 
+        </motion.div> */}
+        <motion.div
+  className="box"
+  whileHover={{ background: "lightgray", color: "black" }}
+>
+  <h2>About Me</h2>
+  <p>
+    I am growing my skill set around software engineering, data analytics, and cloud computing.
+    My interests include <b>product management, machine learning, women’s empowerment</b> in STEM, and helping communities use technology for <b>real-world impact</b>. I am seeking analyst or engineering internships for positive change.
+  </p>
+  <a
+    href="/AiymAibekova_Resume.pdf"
+    download
+    style={{
+      display: "inline-block",
+      padding: "10px 24px",
+      borderRadius: "8px",
+      background: "#23236A",
+      color: "white",
+      fontWeight: "bold",
+      textDecoration: "none",
+      margin: "20px 0"
+    }}
+  >
+    Download My Resume (PDF)
+  </a>
+  
+</motion.div>
+
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Fact #1</h2>
-          <p>
-            Skromnaya
+          <h2>Education</h2>
+          <p> Pacific Lutheran University, 
+Bachelor of Science (Honors) in Computer Science | 
+Minors: Applied Mathematics, Data Science 
+| GPA: 3.7/4.0 <br />
           </p>
+          <div style={{ display: "flex", gap: "16px", margin: "18px 0", alignItems: "center" }}>
+  <img src="/plu-logo.gif" alt="Pacific Lutheran University" width="120" height="52"/>
+</div>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Fact #2</h2>
+          <h2>Coursework</h2>
           <p>
-            Vezhlivaya
+                  Data Structures, Linear Algebra, Discrete Maths, Data Science, Artificial Intelligence,
+      Computer Organization, Web Programming, Privacy & Surveillance, Micro/Macro Economics
+
           </p>
+          <div style={{ display: "flex", gap: "16px", margin: "18px 0", alignItems: "center" }}>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="32" height="32"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="32" height="32"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="32" height="32" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="32" height="32"/>
+
+</div>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Fact #3</h2>
+          <h2>Values</h2>
           <p>
-            Nezhnaya
+      Community Building, Inclusion, Sustainability, Mentorship, Finance, Research, Growth Mindset, Traveling
           </p>
+          <div style={{ display: "flex", gap: "16px", margin: "18px 0", alignItems: "center" }}>
+  <span role="img" aria-label="community">🤝</span>
+  <span role="img" aria-label="inclusion">🌎</span>
+  <span role="img" aria-label="sustainability">🌱</span>
+  <span role="img" aria-label="mentorship">🎓</span>
+  <span role="img" aria-label="research">🔬</span>
+  <span role="img" aria-label="growth">📈</span>
+  <span role="img" aria-label="travel">✈️</span>
+</div>
+
+
         </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Fact #4</h2>
-          <p>
-            Uravnoveshennaya
-          </p>
-        </motion.div>
+        
+        
+        
+
+        
       </motion.div>
     </motion.div>
   );

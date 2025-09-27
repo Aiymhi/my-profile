@@ -40,7 +40,13 @@
       font-weight: 300;
     }
   }
-
+  
+.honeypot-field {
+  position: absolute;
+  left: -5000px;
+  opacity: 0;
+  top: 0;
+}
   .formContainer {
     flex: 1;
     position: relative;

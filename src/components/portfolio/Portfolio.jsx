@@ -11,16 +11,24 @@ const items = [
   },
   {
     id: 2,
-    title: "Stock Price Predictor via Sentiment Analysis",
-    img: "'/Users/aiymaibekova/Downloads/event runner.png'",
+    title: "Stock Price Predictor via Sentiment Analysis Research",
+    img: "./FinResearch.png",
     desc: "Built an LSTM-based model to forecast stock prices using sentiment analysis of 650K+ news articles. Processed data with NLP models (VADER, FinBERT, DistilBERT) and used Python, TensorFlow, and pandas.",
-    repo: "https://github.com/aiymhi/stock-predictor-repo", 
+    repo: "https://github.com/Cao-Labs/financialMedia.git", 
   },
   {
     id: 3,
     title: "Event Runner — UWHacks Hackathon",
+    img: "./eventrunner.png",
     desc: "Developed a full-stack login and user authentication system in 48 hours for an event planning app. Used Node.js, React, TypeScript, and MongoDB to rapidly build the core feature.",
-    repo: "https://github.com/Cao-Labs/financialMedia.git" ,
+    repo: "https://github.com/Aiymhi/event_runner.git" ,
+  },
+  {
+    id: 4, 
+    title: "CFA Institute Research Challenge",
+    img: "./cfa.png", 
+    desc: "As part of a CFA Institute Research Challenge, our team's strategic analysis of Accolade (ACCD) was ranked in the top 3 for the Seattle Area. I focused on analyzing the company's ESG initiatives, including its 'green building' efforts, workforce diversity, and governance. This research highlighted how Accolade's ESG efforts enhance its appeal to investors.",
+    repo: "https://docs.google.com/document/d/1s-3hSkZss3dWxvL6Src7UDL_Iw1xnwX9XnJU358NsB0/edit?usp=sharing",
   },
 ];
 

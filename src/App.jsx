@@ -8,17 +8,18 @@ import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 
+
 const App = () => {
   return (
     <div>
       <Cursor />
-      <section id="Homepage">
+      {/*<section id="Homepage">
         <Navbar />
         <Hero />
       </section>
       <section id="Me">
         <Parallax type="me" />
-      </section>
+      </section>*/}
       <section>
         <Services />
       </section>

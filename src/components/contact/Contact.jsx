@@ -38,7 +38,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          setSuccess(true)
+          setSuccess(true);
+          formRef.current.reset();
         },
         (error) => {
           setError(true);
@@ -57,16 +58,16 @@ const Contact = () => {
       <motion.div className="textContainer" variants={variants}>
         <motion.h1 variants={variants}>Let’s Connect, Code, Collaborate</motion.h1>
         <motion.div className="item" variants={variants}>
-          <h2>Mail</h2>
-          <span>aiym@gmail.com</span>
+          <h2>Email</h2>
+          <span>aibekova@plu.edu</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Address</h2>
-          <span>PLU Address</span>
+          <span>Tacoma, WA</span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
-          <span>Your phone number</span>
+          <span>253-203-4918</span>
         </motion.div>
       </motion.div>
       <div className="formContainer">
@@ -99,6 +100,7 @@ const Contact = () => {
             />
           </svg>
         </motion.div>
+
         <motion.form
           ref={formRef}
           onSubmit={sendEmail}
@@ -106,11 +108,11 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" required placeholder="Name" name="name"/>
-          <input type="email" required placeholder="Email" name="email"/>
-          <textarea rows={8} placeholder="Message" name="message"/>
+          <input type="text" required placeholder="Name" name="name" />
+          <input type="email" required placeholder="Email" name="email" />
+          <textarea rows={8} placeholder="Message" name="message" />
           <button>Submit</button>
-          {error && "Error"}
+          {error && "Avoiding spam is important to me. use my email directly: please: aibekova@plu.edu"}
           {success && "Success"}
         </motion.form>
       </div>
