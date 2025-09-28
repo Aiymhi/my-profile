@@ -115,8 +115,33 @@ const Contact = () => {
           {error && "Avoiding spam is important to me. use my email directly: please: aibekova@plu.edu"}
           {success && "Success"}
         </motion.form>
+        <div style={{ marginTop: "1em", textAlign: "center" }}>
+  <button
+    type="button"
+    onClick={() => {
+      window.location.href =
+        "mailto:aibekova@plu.edu?subject=Contact%20from%20Website&body=Hi%20there,";
+    }}
+    style={{
+      background: "#6C63FF",
+      color: "white",
+      border: "none",
+      padding: "10px 20px",
+      borderRadius: "5px",
+      cursor: "pointer",
+      fontWeight: "bold"
+    }}
+  >
+    Send message via your email app
+  </button>
+</div>
+
+        
+
       </div>
+      
     </motion.div>
+    
   );
 };
 

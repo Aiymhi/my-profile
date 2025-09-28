@@ -72,7 +72,7 @@ My interests include <b>product management, machine learning, women’s empowerm
   <h2>About Me</h2>
   <p>
     I am growing my skill set around software engineering, data analytics, and cloud computing.
-    My interests include <b>product management, machine learning, women’s empowerment</b> in STEM, and helping communities use technology for <b>real-world impact</b>. I am seeking analyst or engineering internships for positive change.
+    My interests include <b>product management, machine learning, women’s empowerment</b> in STEM, and helping communities use technology for <b>real-world impact</b>. I am seeking SWE/PM/analyst internships for positive change.
   </p>
   <a
     href="/AiymAibekova_Resume.pdf"
@@ -90,6 +90,7 @@ My interests include <b>product management, machine learning, women’s empowerm
   >
     Download My Resume (PDF)
   </a>
+  
   
 </motion.div>
 
@@ -142,7 +143,62 @@ Minors: Applied Mathematics, Data Science
   <span role="img" aria-label="research">🔬</span>
   <span role="img" aria-label="growth">📈</span>
   <span role="img" aria-label="travel">✈️</span>
+</div> 
+<div style={{ display: "flex", gap: "16px", margin: "18px 0", alignItems: "center" }}>
+  <a
+    href="https://www.linkedin.com/in/aiym-aibekova-457033287/"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: "inline-block",
+      verticalAlign: "middle"
+    }}
+  >
+    <img 
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+    alt="LinkedIn"
+    width="30"
+    height="30"
+    style={{ verticalAlign: "middle" }}
+  />   <span style={{
+      letterSpacing: "0.02em",
+      paddingLeft: "2px"
+    }}>
+      <b>Connect</b> on <b>LinkedIn</b>
+    </span>
+</a> 
 </div>
+
+
+{/* <a
+  href="https://www.linkedin.com/in/aiym-aibekova-457033287/"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: "inline-flex",              // <-- Use inline-flex for icon+text
+    alignItems: "center",
+    gap: "10px",
+    padding: "10px 24px",
+    borderRadius: "8px",
+    background: "#23236A",
+    color: "white",
+    fontWeight: "bold",
+    textDecoration: "none",
+    margin: "20px 0",
+    minWidth: "220px",                   // Optional: set or increase as needed
+    whiteSpace: "nowrap",
+  }}
+>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+    alt="LinkedIn"
+    width="30"
+    height="30"
+    style={{ verticalAlign: "middle" }}
+  />
+  Connect on LinkedIn
+</a> */}
+
 
 
         </motion.div>
